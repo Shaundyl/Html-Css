@@ -1,0 +1,172 @@
+/* Base Styles for the main sections */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin-top: 20px;
+    background-color: #ccc;
+    font-family: arial, verdana, tahoma, sans-serif; 
+}
+
+/* section layouts */
+
+#header {
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 200px;   
+}
+
+#lefthead {
+    height:200px;
+    width: 200px;
+    background: #fff url("../images/libretto2_200px.png") no-repeat;
+    border-top-left-radius: 25px;
+    float:left
+}
+
+#righthead {
+    height:200px;
+    width: 800px;
+    background: #fff url("../images/libretto_banner.png") no-repeat;
+    border-top-right-radius: 25px;
+    float:left;
+}
+
+#mainmenubar {
+    margin: 0 auto;
+    width: 1000px;
+    height: 35px;
+    background-color: #fff;
+    border-bottom: 2px solid black;
+}
+
+#maincontainer {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    background-color: #fff;
+    border-bottom: 1px solid black;
+}
+
+#headline {
+    width: 1000px;
+    height: 350px;
+}
+
+#headlleft img {
+    display: block;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+#headlleft {
+    width: 600px;
+    float:left; 
+}
+
+#headlright {
+    width: 400px;
+    float:left;
+}
+
+#left {    
+    width: 300px;
+    min-height: 200px;
+    height: auto;
+    background-color: #fff;
+    float:left;
+}
+
+#right {  
+    width: 700px;
+    height: auto;
+    background-color: #fff;
+    float:left;
+}
+
+#right .blockheadings {
+    display:block; 
+    font-family:"Arial Narrow", arial, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    padding-left: 10px;
+    background-color:#65A9D6;
+}
+
+#right #placeholder{
+    margin: 0 auto;
+    height: auto;
+    padding-top: 30px;
+    width: 600px;
+}
+
+#right .sections {
+	padding: 2px;
+    float: left;   
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 220px;
+    min-height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+#right .sections p{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #65A9D6;
+    font-family:"Arial Narrow", arial, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    padding-left: 5px;
+    height: 40px;
+}
+
+#right .sectiontext {
+	
+    text-align:justify;
+}
+
+#footer {
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 200px;
+    background-color: #000;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+}
+
+#headlright .headlineimpact {
+     display: block; 
+     font-family: tahoma, sans-serif;
+     font-size: 45px;
+     font-weight: normal;
+     color: #00f;
+     text-align: center; 
+}
+
+#headlright .headlinetext {
+     display: block;
+     font-family: arial, verdana, sans-serif;
+     font-size: 30px;
+     font-weight: normal;
+     color: #f00;
+     text-align: center;
+}
+
+#footer #copyrighttext { 
+     display:block;
+     text-align: right;
+     font-size:13px;
+     color:#fff;
+     position: absolute;
+     bottom: 20px;
+     right: 10px;
+}

@@ -1,0 +1,45 @@
+/* CSS Reset Rule */
+* {
+     margin: 0px;
+     padding: 0px; 
+}
+
+
+body {
+     margin-top:20px;
+     margin-left:20px; 
+     font-family:verdana, arial, sans-serif;  
+}
+
+
+#mainmenu {
+     list-style: none;
+}
+
+#mainmenu li {
+    
+    background-color: #174557; 
+    width: 125px;
+    text-align: center;
+    float:left;
+    border-left: 1px solid #237291;
+    border-right: 1px solid #D5E1E6;   
+    
+}
+
+#mainmenu a {
+     color:#fff;
+     text-decoration:none;
+     display:block;
+     width:125px;
+     height:40px;
+     line-height:40px;     
+}
+
+#mainmenu a:hover {
+     background-color:#237291;
+}
+
+#mainmenu a:active {
+     background-color:#f00;
+}

@@ -1,0 +1,45 @@
+
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+Copyright (c) stu nicholls - cssplay.co.uk. All rights reserved.
+=================================================================== */
+
+
+.menuHolder {width:650px; height:31px; position:relative; margin-left:10px;}
+.menu, .menu ul {padding:0; margin:0; list-style:none; position:relative; font-family:arial, sans-serif;}
+.menu {width:650px; height:30px; overflow:hidden; position:absolute; left:0; top:0;}
+
+.menu li {float:left; position:relative; z-index:10;}
+.menu li a {float:left; display:block; height:31px; padding:0 10px; line-height:30px; position:relative; z-index:20; color:#ddd; text-decoration:none; font-size:12px; background:url(slidemenu/back.png) no-repeat center top;}
+.menu li.first a {background:url(slidemenu/back.png) no-repeat left top;}
+
+.menu li.pad {width:90px; height:31px;}
+.menu li.pad b {display:block; height:31px; width:90px; background:url(slidemenu/back.png) no-repeat right top;}
+
+.menu ul {width:180px; height:auto; position:absolute; top:-130px;
+transition: 0.8s ease-in-out;
+-o-transition: 0.8s ease-in-out;
+-moz-transition: 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+
+z-index:1; padding:10px 0; background:#000; 
+-webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+.menu ul li {width:180px;}
+.menu ul li a {width:160px; height:20px; line-height:20px; background:transparent;}
+
+.menu:hover {height: 200px;}
+.menu a:hover {color:#0cf;}
+.menu li:hover > a {color:#0cf;}
+
+.menu li:hover ul {
+-webkit-transform: translate(0,161px);
+-moz-transform: translate(0,161px);
+-o-transform: translate(0,161px);
+transform: translate(0,161px);
+}

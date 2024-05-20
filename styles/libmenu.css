@@ -1,0 +1,71 @@
+/***** Menu Styles ******/
+
+#mainmenu, .sub1, .sub2 {
+    list-style: none; 
+}
+
+#mainmenu li {    
+    width: 125px;
+    position:relative;
+    float:left;
+    margin-right: 4px;
+    text-align: center; 
+}
+
+#mainmenu a {
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 125px;
+    height: 35px;
+    line-height: 35px;   
+}
+
+#mainmenu .sub1 a {
+    font-size: 12px;
+}
+
+#mainmenu .sub1 a {
+   /* margin-top: 3px; */
+   /*  border: 1px solid #000; */
+}
+
+#mainmenu .sub2 a {
+   /*  margin-left: 5px; */  
+    /* border: 1px solid #000; */
+}
+
+#mainmenu li:hover > a {
+    background-color: #237291;
+    color: #fff;
+}
+
+#mainmenu li:hover a:hover {
+    background-color: aqua;
+    color: #000;
+}
+
+#mainmenu .sub1 {
+    display: none;
+    position: absolute;
+}
+
+#mainmenu .sub2 {
+    display:none;
+    position:absolute;
+    top: 0px;
+    left: 127px;
+}
+
+#mainmenu li:hover .sub1 {
+    display: block;
+}
+
+#mainmenu .sub1 li:hover .sub2 {
+    display: block;
+}
+
+
+/***** end menu styles ****/
