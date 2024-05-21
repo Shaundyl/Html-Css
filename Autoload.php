@@ -13,10 +13,8 @@ function autoload($class){
    $classPath = str_replace("Generator\\", "",$classPath) . '.php'; 
   if (file_exists($classPath)) {
       require_once $classPath;
-      echo "true \n"; 
       return true;
    } else{
-    echo "false \n"; 
       return false; 
    }
 }
