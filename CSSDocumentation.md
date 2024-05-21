@@ -67,7 +67,7 @@ This class represents a media query within a CSS stylesheet. It allows defining 
 
 ## Methods
 <ul>
-<li> - `__construct(int $px, string $limit, bool $screen)` (public): This constructor method initializes the CSSMedia object. It takes three arguments: </li>
+<li>  `__construct(int $px, string $limit, bool $screen)` (public): This constructor method initializes the CSSMedia object. It takes three arguments: </li>
 
 <ol>
 <li>
@@ -84,8 +84,8 @@ This class represents a media query within a CSS stylesheet. It allows defining 
 </li>
 </ol>
 
-<li> - `addFormat(CSSFormat $format): CSSMedia` (public): This method allows adding a `CSSFormat` object to the `$subFormats` array, representing styles specific to this media query. It allows chaining by returning the current object (`$this`).</li>
-<li> - `finish()`: (public): This method returns the closing curly brace `}` to be appended to the media query template string.</li>
-<li> - `getTemplate(): string` (public): This method retrieves the current media query template string, including the initial part constructed in the constructor and potentially containing styles added through `addFormat`. </li>
-<li> - `getFormats(): array` (public): This method returns the array of `CSSFormat` objects stored in `$subFormats`, representing the styles defined within this media query.</li>
+<li>  `addFormat(CSSFormat $format): CSSMedia` (public): This method allows adding a `CSSFormat` object to the `$subFormats` array, representing styles specific to this media query. It allows chaining by returning the current object (`$this`).</li>
+<li>  `finish()`: (public): This method returns the closing curly brace `}` to be appended to the media query template string.</li>
+<li>  `getTemplate(): string` (public): This method retrieves the current media query template string, including the initial part constructed in the constructor and potentially containing styles added through `addFormat`. </li>
+<li>  `getFormats(): array` (public): This method returns the array of `CSSFormat` objects stored in `$subFormats`, representing the styles defined within this media query.</li>
 </ul>
